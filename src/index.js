@@ -4,16 +4,16 @@
  * @Author: ekko
  * @Date: 2021-03-02 18:22:06
  * @LastEditors: ekko
- * @LastEditTime: 2021-03-03 09:36:52
+ * @LastEditTime: 2021-03-03 13:40:36
  */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './common/style/global.css';
 import App from './App';
+import './common/style/global.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App  />
   </React.StrictMode>,
   document.getElementById('root')
 );

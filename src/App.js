@@ -4,19 +4,15 @@
  * @Author: ekko
  * @Date: 2021-03-02 18:22:06
  * @LastEditors: ekko
- * @LastEditTime: 2021-03-03 09:33:42
+ * @LastEditTime: 2021-03-03 15:10:04
  */
-import './App.css';
+import {routers} from './utils/router'
 
 function App() {
   return (
-    <div className="App">
-       <h1>
-       Learn React
-
-       </h1>
-
-    </div>
+    <>
+     {routers()}
+    </>
   );
 }
 
