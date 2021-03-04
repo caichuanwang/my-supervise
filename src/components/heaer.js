@@ -2,23 +2,20 @@
  * @Descripttion: 
  * @version: 1.0
  * @Author: ekko
- * @Date: 2021-03-03 13:56:28
+ * @Date: 2021-03-04 14:55:08
  * @LastEditors: ekko
- * @LastEditTime: 2021-03-04 14:54:16
+ * @LastEditTime: 2021-03-04 14:56:30
  */
 import React from 'react'
 import {useSelector,useDispatch} from 'react-redux'
 
 
-function Login() {
+export default function Heaer() {
   const {counts} = useSelector(state => state)
+
   return (
     <div>
-      login
-      <p>总数：{counts}</p>
+      总数{counts}
     </div>
   )
 }
-
-export default Login
-
